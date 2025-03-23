@@ -2,7 +2,7 @@ import { WandSparkles } from "lucide-react"
 import { Button } from "../ui/button"
 const Hero = () => {
   return (
-    <div className='flex flex-col gap-2 relative'>
+    <div className='md:px-10 flex flex-col gap-2 relative'>
 
       <p className="px-4 py-3 rounded-full bg-red-100 w-fit text-xs font-semibold -rotate-6">Open for Awesomeness</p>
       <h1 className='text-4xl md:text-6xl max-w-3xl font-medium md:leading-16 leading-10 '> Building Technology For The Most <span className="font-black text-primary">Ambitious</span> Startups 
