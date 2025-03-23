@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const CircularSticker = () => {
   const [rotation, setRotation] = useState(0);
   
@@ -17,6 +18,7 @@ const CircularSticker = () => {
 
   return (
     <div className="fixed bottom-8 right-8 z-50">
+      <Link href="https://wa.me/+918910757287?text=hey">
       <div className="relative group">
         {/* Main sticker with red theme */}
         <div className="w-24 h-24 bg-[#ea384c] rounded-full flex items-center justify-center shadow-lg transition-all duration-500 hover:scale-110 cursor-pointer group-hover:shadow-xl">
@@ -46,6 +48,7 @@ const CircularSticker = () => {
           </svg>
         </div>
       </div>
+      </Link>
     </div>
   );
 };
